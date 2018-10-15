@@ -1,0 +1,541 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<h2>@ViewData[""]</h2>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Curriculum Vitae</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--CSS and Bootstrap references-->
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Animation-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+</head>
+
+<body id="page-top" data-target=".navbar">
+    <header id="header">
+        <div id="particles_bg">
+            <canvas class="pg-canvas" width="1393" height="909" style="display:block;"></canvas>
+        </div>
+        <div class="header_overlay"></div>
+        <div class="header_content">
+            <h5 class="wow fadeInUp delay-02s animated" style="visibility: visible; animation-name: fadeInUp;">Hello, World.</h5>
+            <h1 class="wow fadeInUp delay-03s animated" style="visibility: visible; animation-name: fadeInUp; color:aquamarine">I'm Tidimalo Mokuwa</h1>
+            <p class="wow fadeInUp delay-04s animated" style="visibility: visible; animation-name: fadeInUp;"><span>Front-end Developer</span><span> A Beginner Back-end Developer</span><span> Database Programmer</span></p>
+            <a href="#about" class="btn btn-default btn-lg page-scroll">More About Me</a>
+
+            <ul class="header_social wow fadeInUp delay-05s animated" style="visibility: visible; animation-name: fadeInUp;">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            </ul> <!-- /intro-social -->
+
+            <a href="#about" class="page-scroll">
+                <div class="icon-scroll"></div>
+            </a>
+        </div>
+    </header>
+
+    <nav id="nav" class="navbar navbar-custom navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Tidimalo</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse  navbar-main-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"> <a class="page-scroll" href="#header">Home</a> </li>
+                    <li class=""> <a class="page-scroll" href="#about">About</a> </li>
+                    <li class=""> <a class="page-scroll" href="#resume">Resume</a> </li>
+                    <li class=""> <a class="page-scroll" href="#skills">Skills</a> </li>
+                    <li class=""> <a class="page-scroll" href="#portfolio">Works</a> </li>
+                    <li class=""> <a class="page-scroll" href="#contact">Contact</a> </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="about">
+        <div class="container wow fadeInUp delay-02s animated" style="visibility: visible; animation-name: fadeInUp;">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="section-heading">About Me</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="sort_info wow fadeInUp delay-05s animated" style="visibility: visible; animation-name: fadeInUp;">
+                        <h2>Objective</h2>
+                        <p>
+                            I'm a Front End and Wordpress Developer with 1+ years of experience and a high dose of creativity and professionalism. I have developed projects for a company called Tangent Solutions in teams,
+                            cooperating with other developers and designers. My professional objectives are to develop and create logical and creative projects, which stand out from all others and
+                            are remembered. I'm highly professional and communicative, always deliver on time and Guarantee 100% Satisfaction and Quality.
+                        </p>
+                        <h2>What I Do ?</h2>
+                        <p>
+                            I have been working as a web interface designer since. I am very dedicated about web programming and I try to learn a new skill every day. I'm honesty, communicable, responsible and always
+                            ready to work on something new.
+                        </p>
+                        <ul>
+                            <li>Website Programming</li>
+                            <li>Responsive Website Programming</li>
+                            <li>Mobile Development</li>
+                            <li>Integration Testing</li>
+                            <li>Database Design</li>
+                            <li>Database Programming</li>
+                            <li>HTML</li>
+                        </ul>
+                        <div class="sign">
+                            <img src="~/images/Signature.PNG" class="img-responsive" alt="signature" width="150" height="150">
+                        </div>
+                        <a href="#contact" class="btn btn-default btn-lg page-scroll"><i class="fa fa-paper-plane"></i>Send Me Message</a>
+                        <a href="#" class="btn btn-default btn_color btn-lg"><i class="fa fa-download"></i>Download My CV</a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="photo text-center wow zoomIn delay-05s animated" style="visibility: visible; animation-name: zoomIn;">
+                        <img src="~/images/jobs.jpg" class="img-responsive img-circle img-thumbnail" alt="My Photo">
+                    </div>
+                    <div class="personal_detail wow fadeInUp delay-07s animated" style="visibility: visible; animation-name: fadeInUp;">
+                        <ul>
+                            <li><strong>Name:</strong> Tidimalo Mokuwa</li>
+                            <li><strong>Date of birth:</strong> 12 September 1995 </li>
+                            <li><strong>Address:</strong> 12935 Duma-Nokwe Street, South Africa</li>
+                            <li><strong>Nationality:</strong> Black</li>
+                            <li><strong>Email:</strong> mtidmalo59@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="resume">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="section-heading">Work History</h2>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul class="resume">
+                            <li>
+                                <div class="resume-image wow fadeInUp delay-04s animated" style="visibility: visible; animation-name: fadeInUp;">
+                                    <h4>
+                                        2018 <br>
+                                        - <br>
+                                        Present
+                                    </h4>
+                                </div>
+                                <div class="resume-panel wow fadeInDown delay-05s animated" style="visibility: visible; animation-name: fadeInDown;">
+                                    <div class="resume-heading">
+                                        <h4>Tangent Solutions</h4>
+                                        <h4 class="subheading">Developer/Programmer</h4>
+                                    </div>
+                                    <div class="resume-body">
+                                        <p>
+                                            Developing Mobile and mostly Web Applications and
+                                            assisting senior members in any their projects.
+                                            Quality Assuring WinMate's purchased Products for clients
+                                            Unit, and End-to-End Testing.
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="section-heading text-center">Education</h2>
+                        <ul class="resume">
+                            <!-- Education Section-->
+
+                            <li>
+                                <div class="resume-image wow fadeInUp delay-04s animated" style="visibility: visible; animation-name: fadeInUp;">
+                                    <h4>
+                                        2014 <br>
+                                        - <br>
+                                        2017
+                                    </h4>
+                                </div>
+                                <div class="resume-panel wow fadeInDown delay-05s animated" style="visibility: visible; animation-name: fadeInDown;">
+                                    <div class="resume-heading">
+                                        <h4>Tshwane University of Technology</h4>
+                                        <h4 class="subheading">National Diploma Information Communication Technology (Software Development)</h4>
+                                    </div>
+                                    <div class="resume-body">
+                                        <p>I studied ICT National Diploma at the Tshwane University of Technology specialized in Software Development for a period of 4 years.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="resume-image wow fadeInUp delay-08s animated" style="visibility: visible; animation-name: fadeInUp;">
+                                    <h4>
+                                        2009 <br>
+                                        - <br>
+                                        2013
+                                    </h4>
+                                </div>
+                                <div class="resume-panel wow fadeInDown delay-09s animated" style="visibility: visible; animation-name: fadeInDown;">
+                                    <div class="resume-heading">
+                                        <h4>Hoerskool Jan De Klerk</h4>
+                                        <h4 class="subheading">National Certificate</h4>
+                                    </div>
+                                    <div class="resume-body">
+                                        <p >I completed my National Certificate and I specialized in the following subjects:</p>
+                                        <ul>
+                                            <li>English Home Language</li>
+                                            <li>Afrikaans First Additional Language</li>
+                                            <li>Mathemetical Literacy</li>
+                                            <li>Life Orientation</li>
+                                            <li>Computer Application Technology</li>
+                                            <li>Engineering Graphics and Design</li>
+                                            <li>Life Science</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container wow fadeInUp delay-02s animated" style="visibility: visible; animation-name: fadeInUp;">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="section-heading">Technical Skills</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container skill_progress">
+            <div class="row">
+                <div class="col-md-6 progress-element">
+                    <div class="skill">
+                        <p>HTML<span>75%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <p>CSS<span>70%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <p>Javascript<span>60%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <p>C#<span>70%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <p>PL/SQL<span>85%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar active" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <p>Systems Analysis &Aacute; Design<span>65%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar active" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="skill">
+                        <p>Bootstrap<span>70%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <p>C++<span>45%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <p>MySQL<span>80%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <p>Java/Android<span>35%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar active" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width: 35%;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <p>ASP.NET<span>70%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <p>Xamarin Mobile Development<span>25%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar active" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container wow fadeInUp delay-02s animated" style="visibility: visible; animation-name: fadeInUp;">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="section-heading">More Skills</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="skill_chart">
+            <div class="row">
+                <!-- Skills Circles START -->
+                <div class="col-sm-4 col-md-2">
+                    <div class="pie-progress-wrapper">
+                        <div class="pie_progress" role="progressbar" data-goal="90" aria-valuenow="90">
+                            <div class="pie_progress__number">90%</div>
+                            <div class="pie_progress__svg">
+                                <svg version="1.1" preserveAspectRatio="xMinYMin meet" viewBox="0 0 160 160">
+                                    <ellipse rx="77.5" ry="77.5" cx="80" cy="80" stroke="#333" fill="none" stroke-width="5"></ellipse>
+                                    <path fill="none" stroke-width="5" stroke="#0094ff" d="M80,2.5 A77.5,77.5 0 1 1 34.446642947333316,17.301182935941583" style="stroke-dasharray: 438.285, 438.285; stroke-dashoffset: 0;"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <h4>Leadership</h4>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-md-2">
+                    <div class="pie-progress-wrapper">
+                        <div class="pie_progress" role="progressbar" data-goal="90" aria-valuenow="90">
+                            <div class="pie_progress__number">90%</div>
+                            <div class="pie_progress__svg">
+                                <svg version="1.1" preserveAspectRatio="xMinYMin meet" viewBox="0 0 160 160">
+                                    <ellipse rx="77.5" ry="77.5" cx="80" cy="80" stroke="#333" fill="none" stroke-width="5"></ellipse>
+                                    <path fill="none" stroke-width="5" stroke="#0094ff" d="M80,2.5 A77.5,77.5 0 1 1 34.446642947333316,17.301182935941583" style="stroke-dasharray: 438.285, 438.285; stroke-dashoffset: 0;"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <h4>Time Management </h4>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-md-2">
+                    <div class="pie-progress-wrapper">
+                        <div class="pie_progress" role="progressbar" data-goal="72" aria-valuenow="72">
+                            <div class="pie_progress__number">72%</div>
+                            <div class="pie_progress__svg">
+                                <svg version="1.1" preserveAspectRatio="xMinYMin meet" viewBox="0 0 160 160">
+                                    <ellipse rx="77.5" ry="77.5" cx="80" cy="80" stroke="#333" fill="none" stroke-width="5"></ellipse>
+                                    <path fill="none" stroke-width="5" stroke="#0094ff" d="M80,2.5 A77.5,77.5 0 1 1 3.8727380685266297,94.52205188039366" style="stroke-dasharray: 350.64, 350.64; stroke-dashoffset: 0;"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <h4>Creativity/Innovation</h4>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-md-2">
+                    <div class="pie-progress-wrapper">
+                        <div class="pie_progress" role="progressbar" data-goal="75" aria-valuenow="75">
+                            <div class="pie_progress__number">75%</div>
+                            <div class="pie_progress__svg">
+                                <svg version="1.1" preserveAspectRatio="xMinYMin meet" viewBox="0 0 160 160">
+                                    <ellipse rx="77.5" ry="77.5" cx="80" cy="80" stroke="#333" fill="none" stroke-width="5"></ellipse>
+                                    <path fill="none" stroke-width="5" stroke="#0094ff" d="M80,2.5 A77.5,77.5 0 1 1 3.8727380685266297,94.52205188039366" style="stroke-dasharray: 350.64, 350.64; stroke-dashoffset: 0;"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <h4>Problem Solving</h4>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-md-2">
+                    <div class="pie-progress-wrapper">
+                        <div class="pie_progress" role="progressbar" data-goal="75" aria-valuenow="75">
+                            <div class="pie_progress__number">75%</div>
+                            <div class="pie_progress__svg">
+                                <svg version="1.1" preserveAspectRatio="xMinYMin meet" viewBox="0 0 160 160">
+                                    <ellipse rx="77.5" ry="77.5" cx="80" cy="80" stroke="#333" fill="none" stroke-width="5"></ellipse>
+                                    <path fill="none" stroke-width="5" stroke="#0094ff" d="M80,2.5 A77.5,77.5 0 1 1 3.8727380685266297,94.52205188039366" style="stroke-dasharray: 350.64, 350.64; stroke-dashoffset: 0;"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <h4>Effective Communication</h4>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-md-2">
+                    <div class="pie-progress-wrapper">
+                        <div class="pie_progress" role="progressbar" data-goal="75" aria-valuenow="75">
+                            <div class="pie_progress__number">75%</div>
+                            <div class="pie_progress__svg">
+                                <svg version="1.1" preserveAspectRatio="xMinYMin meet" viewBox="0 0 160 160">
+                                    <ellipse rx="77.5" ry="77.5" cx="80" cy="80" stroke="#333" fill="none" stroke-width="5"></ellipse>
+                                    <path fill="none" stroke-width="5" stroke="#0094ff" d="M80,2.5 A77.5,77.5 0 1 1 3.8727380685266297,94.52205188039366" style="stroke-dasharray: 350.64, 350.64; stroke-dashoffset: 0;"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <h4>Presentation Skills</h4>
+                    </div>
+                </div>
+                <!-- Skills Circles END -->
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <div class="container wow fadeInUp delay-02s animated" style="visibility: visible; animation-name: fadeInUp;">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="section-heading">Get In Touch</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 contact_detail">
+
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 text-center wow fadeInUp delay-04s animated" style="visibility: visible; animation-name: fadeInUp;">
+                            <div class="single_contact_info">
+                                <div class="contact_icon">
+                                    <i class="fa fa-map-marker"></i>
+                                </div>
+                                <p>12935 Duma-Nokwe Street<br> Johannesburg</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 text-center wow fadeInUp delay-05s animated" style="visibility: visible; animation-name: fadeInUp;">
+                            <div class="single_contact_info">
+                                <div class="contact_icon">
+                                    <i class="fa fa-phone"></i>
+                                </div>
+                                <p>Phone: 083 868 4415<br> Fax: 123 456 789</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 text-center wow fadeInUp delay-06s animated" style="visibility: visible; animation-name: fadeInUp;">
+                            <div class="single_contact_info">
+                                <div class="contact_icon">
+                                    <i class="fa fa-envelope"></i>
+                                </div>
+                                <p>mtidimalo59@gmail.com<br> support@tidi.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="contact_sortdetail wow fadeInUp delay-07s animated" style="visibility: visible; animation-name: fadeInUp;">
+                        Ready to start your next project with me? That's great! Give me a call or send me an email and I will get back to you as soon as possible!
+                    </p>
+
+                    <form method="post" class="wow fadeInUp delay-04s contact_form animated" style="visibility: visible; animation-name: fadeInUp;">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <i class="fa fa-user"></i> <label>Your First Name *</label>
+                                    <input type="text" name="fname" class="form-control" required="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <i class="fa fa-user"></i> <label>Your Last Name *</label>
+                                    <input type="text" name="lname" class="form-control" required="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <i class="fa fa-envelope"></i> <label>Your Email *</label>
+                                    <input type="email" name="email" class="form-control" required="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <i class="fa fa-tag"></i> <label>Subject *</label>
+                                    <input type="text" name="sub" class="form-control" required="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <i class="fa fa-tag"></i> <label>Your Message *</label>
+                                    <textarea name="msg" class="form-control" required=""></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <input type="submit" name="submit" class="btn btn_color" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
